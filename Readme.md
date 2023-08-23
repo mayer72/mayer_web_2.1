@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/qm7om97ffl7c91m7/branch/main?svg=true)](https://ci.appveyor.com/project/mayer72/mayer-web-2-1-9e6mu/branch/main)
