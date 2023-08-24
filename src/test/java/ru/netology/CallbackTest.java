@@ -36,8 +36,8 @@ class CallbackTest {
     }
     @Test
     void shouldPositiveTest1() {
-        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Смирнов");
-        driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+012345678910");
+        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Смирнов Вася");
+        driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+01234567891");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
         driver.findElement(By.cssSelector("button")).click();
         var actualText = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText().trim();
